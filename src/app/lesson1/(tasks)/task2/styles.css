@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+
+@media (max-width:768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    transform: translateY(-150%);
+  }
+
+  .menu.open {
+    transform: translateY(0);
+    transition: .3s ease;
+  }
+}
