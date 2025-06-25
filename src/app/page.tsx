@@ -8,6 +8,7 @@ export default function Home() {
           This is where I submit my completed assignments for the AI for Frontend Engineers course.
           Each link will take you to one of my homework submissions.
         </p>
+        <nav className="flex flex-col gap-4">
         <Link 
           href="/lesson1" 
           className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg
@@ -15,6 +16,14 @@ export default function Home() {
         >
           View Homework 1 &quot;Enhanced FE Prompt Engineering&quot; Submission
         </Link>
+        <Link 
+          href="/lesson2" 
+          className="px-6 py-3 bg-green-600 text-white font-medium rounded-lg
+                    hover:bg-green-700 transition-colors"
+        >
+          View Homework 2 &quot;Frontend User Directory Application&quot; Submission
+        </Link>
+        </nav>
       </div>
   );
 }

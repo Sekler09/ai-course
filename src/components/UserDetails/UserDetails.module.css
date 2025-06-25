@@ -1,0 +1,65 @@
+.details {
+  color: #333;
+}
+
+.details h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.email, .link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.email:hover, .link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.email {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin: 1.5rem 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.section h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.mapLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.mapLink:hover {
+  text-decoration: underline;
+}
+
+.catchPhrase {
+  font-style: italic;
+  margin: 0;
+}
+
+.companyDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-weight: 600;
+  color: #666;
+  display: inline-block;
+}
